@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: "Roboto Mono", serif;
+    color: black;
+  
+}
+
+.header_top {
+    width: 100%;
+    height: 100vh;
+    background: url("../imeges/header.jpg") no-repeat center center / cover;
+    background-attachment: fixed;
+}
+h2{
+    color: aliceblue;
+    font-weight: 900;
+    font-size: 46px;
+}
+/* global class */
+.container{ 
+    width: 80%;
+    margin: 0 auto;
+}
+.d-flex{
+    display: flex;
+    justify-content: center;
+}
+
+.bio_card{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bio_card img{
+     width: 150px;
+     border-radius: 50%;
+}
+
+.mt-1{
+    padding-top: 1rem;
+}
+
+section{
+    background: url("../imeges/header.jpg") no-repeat center center / cover;
+    background-attachment: fixed;
+    opacity: 0.5;
+}
+
+p{
+    text-align: justify;
+   /* letter-spacing: 20px; */
+   /* word-spacing: 20px;
+   line-height: 49px; */
+   font-size: 16px;
+   font-weight: 400;
+}
