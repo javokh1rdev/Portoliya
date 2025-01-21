@@ -22,7 +22,7 @@ h2{
 }
 /* global class */
 .container{ 
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
 }
 .d-flex{
@@ -55,8 +55,8 @@ section{
 p{
     text-align: justify;
    /* letter-spacing: 20px; */
-   /* word-spacing: 20px;
-   line-height: 49px; */
+   /*word-spacing: 20px;*/
+   line-height: 49px; 
    font-size: 16px;
    font-weight: 400;
 }
