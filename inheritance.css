@@ -1,0 +1,33 @@
+ .container {
+    padding: 0%;
+    margin: 2% ;
+    color: red;
+ }
+
+ p {
+    color: green;
+ }
+
+ /*Combinators: Descendent selector (avlod selektorlari) */
+ /* div p {
+ margin: 3px;
+ background-color: yellow; 
+ } */
+
+ /* Child selector(farzant selectori)*/
+ /* div > p {
+    margin: 2%;
+    background-color: yellow; 
+    } */
+
+ /*Adjacent sibling selector (qo'shni qardosh selektorlar)*/   
+ div + p {
+    margin: 2%;
+    background-color: yellow; 
+    }
+
+
+
+
+
+
