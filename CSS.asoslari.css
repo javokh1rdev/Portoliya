@@ -1,0 +1,35 @@
+* {
+    margin: 2%;
+    padding: 1%;
+}
+
+.text-red {
+    color: red;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.text-green {
+    color: green;
+}
+
+.text-italic {
+    font-size: x-large;
+}
+ 
+h2 {
+    color: aqua;
+}
+
+h2.active {
+    background-color: rgb(10, 239, 162);
+    color: white;
+}
+
+a.active {
+    background-color: brown;
+    color: white;
+}
+
