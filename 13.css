@@ -1,10 +1,40 @@
-#app h1 {
-    --fontSize: 40px;
-    --lineHeight: 80px;
-    width: auto;
-    height: calc(2 * var(--lineHeight));
-    line-height: var(--lineHeight);
-    margin: calc(50vh - var(--lineHeight)) auto 0;
-    font-size: var(--fontSize);
-    text-transform: uppercase;
+.box {
+    background-color: blue;
+    padding: 20px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: red;
+    margin: 30px;
+}
+
+.box1 {
+    background-color: yellowgreen;
+    /** border ni qisqartmasi  (Shoethends)*/
+    border: 10px solid burlywood;
+    margin: 20px;
+}
+
+.box2 {
+    border-top: 5px solid purple;
+    border-bottom: 5px solid black;
+    border-right: 10px solid yellow;
+    border-left: 10px solid chocolate;
+}
+
+.box3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+/** margin va padding.ni qisqartmasi */
+.box4 {
+    color: white;
+    background-color: rgb(93, 20, 93);
+    margin: 15px 30px;
+}
+
+.box5 {
+    margin: 30px 10px 20px 50px;
 }
